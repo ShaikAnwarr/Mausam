@@ -17,7 +17,7 @@
         android:fontFamily="@font/merriweathersans_semibold"
         android:text="00:00 °C"
         android:textColor="@color/black"
-        android:textSize="48sp"
+        android:textSize="45sp"
         app:layout_constraintEnd_toEndOf="@+id/cityname"
         app:layout_constraintStart_toStartOf="@+id/cityname"
         app:layout_constraintTop_toBottomOf="@+id/cityname" />
@@ -41,7 +41,7 @@
         android:id="@+id/lottieAnimationView"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toStartOf="@+id/cityname"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,13 +54,14 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:drawableLeft="@drawable/loctaion"
         android:drawablePadding="15dp"
         android:fontFamily="@font/merriweathersans_medium"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/searchView"
+        app:layout_constraintHorizontal_bias="0.61"
         app:layout_constraintStart_toStartOf="@+id/searchView"
         app:layout_constraintTop_toBottomOf="@+id/searchView" />
 
@@ -68,12 +69,12 @@
         android:id="@+id/cityname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="64dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="68dp"
         android:fontFamily="@font/merriweathersans_bold"
         android:text="Today"
         android:textColor="@color/black"
-        android:textSize="34sp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -86,8 +87,9 @@
         android:text="SUNNY"
         android:textAllCaps="true"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="17sp"
         app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView"
+        app:layout_constraintHorizontal_bias="0.586"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView" />
 
@@ -285,7 +287,7 @@
                     android:text="SUNNY"
                     android:textAllCaps="true"
                     android:textColor="@color/black"
-                    android:textSize="14sp" />
+                    android:textSize="10sp" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -389,11 +391,12 @@
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="-5dp"
         android:text="DESIGN BY\n Shaik Ar"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
 
